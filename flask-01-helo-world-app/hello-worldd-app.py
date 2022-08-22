@@ -19,7 +19,7 @@ def third():
  return 'This is the subpage of third page'
 
 
-
+# we should boot instances from n.virigna
 @app.route('/forth/<string:id>')
 def forth(id):
     return f'Id number of this page is {id}'
